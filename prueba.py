@@ -1,3 +1,4 @@
+# Sistema Empresarial CCT - Proyecto de práctica
 from base_datos import conectar
 from alumnos import (
     registrar_alumno,
