@@ -1,3 +1,5 @@
 __pycache__/
 *pyc
 cct.db
+venv/
+db.sqlite3

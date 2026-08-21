@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema Empresarial CCT</title>
+</head>
+<body>
+
+    <h1>Sistema Empresarial CCT</h1>
+    <h2>Alumnos registrados</h2>
+
+    {% for alumno in alumnos %}
+        <p>
+            {{ alumno.nombre }}
+            {{ alumno.curso }}
+            ${{ alumno.precio }}
+        </p>
+    {% endfor %}
+    
+</body>
+</html>
